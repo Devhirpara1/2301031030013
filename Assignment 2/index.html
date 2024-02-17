@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="start-page">
+      <header class="start-page-inner">
+        <div class="frame-parent">
+          <div class="vector-wrapper">
+            <img class="vector-icon" alt="" src="./public/vector.svg" />
+          </div>
+          <div class="text-frame">
+            <div class="div">6:00</div>
+          </div>
+          <div class="group-wrapper">
+            <img class="group-icon" alt="" src="./public/group.svg" />
+          </div>
+        </div>
+      </header>
+      <section class="next-page">
+        <img
+          class="teaching-icon"
+          loading="eager"
+          alt=""
+          src="./public/teaching.svg"
+        />
+
+        <div class="next-page-inner">
+          <div class="explore-your-new-skills-today-parent">
+            <h3 class="explore-your-new-container">
+              <p class="explore-your">Explore your</p>
+              <p class="new-skills-today">new skills today</p>
+            </h3>
+            <div class="you-can-learn-container">
+              <p class="you-can-learn">You can learn various kinds of</p>
+              <p class="courses-in-your">courses in your hand</p>
+            </div>
+          </div>
+        </div>
+        <div class="skip-button-wrapper">
+          <div class="skip-button">
+            <div class="skip-button-child"></div>
+            <div class="skip-button-item"></div>
+          </div>
+        </div>
+      </section>
+      <div class="next-button">
+        <button class="next" id="next">
+          <div class="next-child"></div>
+          <div class="next1">Next</div>
+        </button>
+        <div class="skip" id="skipText">Skip</div>
+      </div>
+    </div>
+
+    <script>
+      var next = document.getElementById("next");
+      if (next) {
+        next.addEventListener("click", function (e) {
+          window.location.href = "./second-page.html";
+        });
+      }
+      
+      var skipText = document.getElementById("skipText");
+      if (skipText) {
+        skipText.addEventListener("click", function (e) {
+          window.location.href = "./log-in.html";
+        });
+      }
+      </script>
+  </body>
+</html>

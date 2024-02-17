@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./certificate-screen.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="certificate-screen">
+      <section class="frame-parent5">
+        <div class="vector-x-parent">
+          <div class="vector-x">
+            <img
+              class="vector-y-icon"
+              loading="eager"
+              alt=""
+              src="./public/vector.svg"
+            />
+
+            <div class="text-label2">
+              <div class="frame-title">6:00</div>
+            </div>
+          </div>
+          <div class="certificate-group">
+            <img
+              class="certificates-text-icon"
+              loading="eager"
+              alt=""
+              src="./public/vector-12.svg"
+              id="certificatesTextIcon"
+            />
+
+            <div class="certificates">Certificates</div>
+          </div>
+        </div>
+        <div class="main-button">
+          <div class="group-group">
+            <img
+              class="group-icon14"
+              loading="eager"
+              alt=""
+              src="./public/group.svg"
+            />
+
+            <div class="certificate-container">
+              <img
+                class="certificates-icon2"
+                loading="eager"
+                alt=""
+                src="./public/certificates1.svg"
+                id="certificatesIcon"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cer-icon">
+        <div class="cer-1">
+          <div class="cer-1-child"></div>
+          <b class="data-analytics-with">Data Analytics with python</b>
+          <div class="download-button">
+            <div class="group-certificates-parent">
+              <button class="group-certificates">
+                <div class="download-certificate">Download certificate</div>
+              </button>
+              <img
+                class="group-icon15"
+                loading="eager"
+                alt=""
+                src="./public/group-13.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="component-22">
+        <img
+          class="group-icon16"
+          loading="eager"
+          alt=""
+          src="./public/group-12.svg"
+          id="groupIcon2"
+        />
+
+        <img
+          class="vector-icon11"
+          loading="eager"
+          alt=""
+          src="./public/vector-22.svg"
+        />
+
+        <img
+          class="certificates-icon3"
+          loading="eager"
+          alt=""
+          src="./public/certificates-1.svg"
+          id="certificatesIcon1"
+        />
+
+        <img
+          class="vector-icon12"
+          loading="eager"
+          alt=""
+          src="./public/vector-6.svg"
+          id="vectorIcon1"
+        />
+      </div>
+    </div>
+
+    <script>
+      var certificatesTextIcon = document.getElementById("certificatesTextIcon");
+      if (certificatesTextIcon) {
+        certificatesTextIcon.addEventListener("click", function (e) {
+          window.location.href = "./starting-page.html";
+        });
+      }
+      
+      var certificatesIcon = document.getElementById("certificatesIcon");
+      if (certificatesIcon) {
+        certificatesIcon.addEventListener("click", function (e) {
+          window.location.href = "./certificate-screen.html";
+        });
+      }
+      
+      var groupIcon2 = document.getElementById("groupIcon2");
+      if (groupIcon2) {
+        groupIcon2.addEventListener("click", function (e) {
+          window.location.href = "./starting-page.html";
+        });
+      }
+      
+      var certificatesIcon1 = document.getElementById("certificatesIcon1");
+      if (certificatesIcon1) {
+        certificatesIcon1.addEventListener("click", function (e) {
+          window.location.href = "./certificate-screen.html";
+        });
+      }
+      
+      var vectorIcon1 = document.getElementById("vectorIcon1");
+      if (vectorIcon1) {
+        vectorIcon1.addEventListener("click", function (e) {
+          window.location.href = "./account-screen.html";
+        });
+      }
+      </script>
+  </body>
+</html>

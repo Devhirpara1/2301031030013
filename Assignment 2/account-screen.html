@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./account-screen.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="account-screen">
+      <header class="screen-frame">
+        <div class="vector-a-parent">
+          <div class="vector-a">
+            <img
+              class="vector-icon10"
+              loading="eager"
+              alt=""
+              src="./public/vector.svg"
+            />
+
+            <div class="accounts-text">
+              <div class="div2">6:00</div>
+            </div>
+          </div>
+          <div class="vector-b">
+            <img
+              class="accounts-text-icon"
+              alt=""
+              src="./public/vector-12.svg"
+              id="accountsTextIcon"
+            />
+
+            <div class="accounts">Accounts</div>
+          </div>
+        </div>
+        <div class="screen-frame-inner">
+          <div class="group-parent">
+            <img
+              class="group-icon13"
+              loading="eager"
+              alt=""
+              src="./public/group.svg"
+            />
+
+            <img class="user-info-group" alt="" src="./public/vector-21.svg" />
+          </div>
+        </div>
+      </header>
+      <div class="f-r-a-m-e-u-s-e-r-i-n-f-o">
+        <input class="user-name2" placeholder="User name" type="text" />
+
+        <input class="email1" placeholder="Email" type="text" />
+
+        <input class="address" placeholder="Address" type="text" />
+
+        <input class="age1" placeholder="Age & D.O.B" type="text" />
+
+        <input class="status" placeholder="Educational status" type="text" />
+
+        <input class="share" placeholder="Share" type="text" />
+
+        <input class="logout" placeholder="Logout" type="text" id="logout" />
+      </div>
+    </div>
+
+    <script>
+      var accountsTextIcon = document.getElementById("accountsTextIcon");
+      if (accountsTextIcon) {
+        accountsTextIcon.addEventListener("click", function (e) {
+          window.location.href = "./starting-page.html";
+        });
+      }
+      
+      var logout = document.getElementById("logout");
+      if (logout) {
+        logout.addEventListener("click", function (e) {
+          window.location.href = "./log-in.html";
+        });
+      }
+      </script>
+  </body>
+</html>

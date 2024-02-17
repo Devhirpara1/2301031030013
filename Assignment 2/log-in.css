@@ -1,0 +1,410 @@
+.vector-line-icon {
+  width: 15px;
+  height: 16px;
+  position: relative;
+}
+.frame-vector {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.text-label {
+  position: relative;
+  font-weight: 500;
+}
+.frame-or {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.group-icon2 {
+  width: 16px;
+  height: 8px;
+  position: relative;
+}
+.frame-group2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.frame-group1,
+.frame-log-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frame-group1 {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-5xs);
+}
+.frame-log-in {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-3xs);
+}
+.login-with-facebook-frame-child {
+  height: 50px;
+  width: 295px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.group-icon3,
+.log-in-with {
+  position: relative;
+  z-index: 1;
+}
+.group-icon3 {
+  height: 28px;
+  width: 28px;
+}
+.log-in-with {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.login-with-facebook-frame,
+.login-with-facebook-frame-item {
+  width: 295px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkgray);
+}
+.login-with-facebook-frame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-4xl) var(--padding-smi);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-12xl);
+}
+.login-with-facebook-frame-item {
+  height: 50px;
+  position: relative;
+  display: none;
+}
+.group-icon4 {
+  height: 29.9px;
+  width: 30.1px;
+  position: relative;
+  z-index: 1;
+}
+.log-in-with1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.login-with-facebook-frame1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-3xl) var(--padding-2xs);
+  background-color: var(--color-darkgray);
+  width: 295px;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+}
+.log-in-button {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vector-frames {
+  height: 3px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.or {
+  height: 21px;
+  position: relative;
+  display: inline-block;
+}
+.vector-frames-child {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-vector1,
+.vector-frames1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.vector-frames1 {
+  height: 3px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.frame-vector1 {
+  width: 295px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 var(--padding-3xs);
+  gap: 10px;
+}
+.login-with-facebook-frame-inner {
+  height: 50px;
+  width: 295px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 3px solid var(--color-dimgray);
+  box-sizing: border-box;
+  display: none;
+}
+.group-icon5,
+.user-name {
+  position: relative;
+  z-index: 1;
+}
+.group-icon5 {
+  height: 22.2px;
+  width: 19px;
+  min-height: 22px;
+}
+.user-name {
+  height: 21px;
+  display: inline-block;
+}
+.frame-login-child,
+.login-with-facebook-frame2 {
+  width: 295px;
+  border-radius: var(--br-8xs);
+  border: 3px solid var(--color-dimgray);
+  box-sizing: border-box;
+}
+.login-with-facebook-frame2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-mini);
+  gap: 40px;
+  color: var(--color-gray-200);
+}
+.frame-login-child {
+  height: 50px;
+  position: relative;
+  display: none;
+}
+.group-icon6,
+.password {
+  height: 21px;
+  position: relative;
+  z-index: 1;
+}
+.group-icon6 {
+  width: 21px;
+}
+.password {
+  display: inline-block;
+}
+.frame-login,
+.login-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.frame-login {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  border: 3px solid var(--color-dimgray);
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-mini) var(--padding-xs);
+  gap: 35px;
+}
+.forgot-password {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  color: rgba(242, 242, 242, 0.7);
+}
+.frame-group3,
+.parent-frame {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-group3 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-xs);
+}
+.parent-frame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-4xs);
+}
+.remeber-me {
+  height: 20px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.rectangle-shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50px;
+  border: 0.5px solid var(--color-mediumslateblue);
+  box-sizing: border-box;
+}
+.ellipse-shape {
+  position: absolute;
+  height: 70.63%;
+  width: 36.56%;
+  top: 14.38%;
+  right: 56.25%;
+  bottom: 15%;
+  left: 7.19%;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke-100);
+  z-index: 1;
+}
+.component-1 {
+  height: 16px;
+  width: 32px;
+  position: relative;
+}
+.login-remember-frame,
+.or-text {
+  display: flex;
+  justify-content: flex-start;
+}
+.or-text {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+}
+.login-remember-frame {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-xs);
+  gap: 6px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
+.log-in-child {
+  height: 30px;
+  width: 90px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.log-in2 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-whitesmoke-100);
+  text-align: left;
+  z-index: 1;
+}
+.log-in1,
+.login-container {
+  display: flex;
+  flex-direction: row;
+}
+.log-in1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) 24px var(--padding-7xs) var(--padding-8xl);
+  background-color: var(--color-darkgray);
+  border-radius: var(--br-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.login-container {
+  width: 193px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs) 0;
+  box-sizing: border-box;
+}
+.register-here {
+  color: var(--color-darkgray);
+}
+.dont-have-an-container {
+  position: relative;
+  cursor: pointer;
+}
+.register-textfield {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 35px;
+  font-size: var(--font-size-xs);
+}
+.log-in,
+.login-with-google-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.login-with-google-frame {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-12xs);
+  gap: 36px;
+  font-size: var(--font-size-sm);
+}
+.log-in {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(191.39deg, #666d73, #404040);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-9xl) var(--padding-13xl) 89px var(--padding-4xl);
+  box-sizing: border-box;
+  gap: 95px;
+  font-size: var(--font-size-xs);
+}

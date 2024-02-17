@@ -1,0 +1,221 @@
+.vector-y-icon {
+  height: 16px;
+  width: 15px;
+  position: relative;
+}
+.frame-title {
+  position: relative;
+  font-weight: 500;
+}
+.text-label2,
+.vector-x {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-label2 {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.vector-x {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.certificates-text-icon {
+  height: 15.2px;
+  width: 15.6px;
+  position: relative;
+  cursor: pointer;
+}
+.certificates {
+  height: 27px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.certificate-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-lg);
+}
+.vector-x-parent {
+  width: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-38xl);
+}
+.group-icon14 {
+  width: 16px;
+  height: 8px;
+  position: relative;
+}
+.certificates-icon2 {
+  height: 17px;
+  width: 19px;
+  position: relative;
+  cursor: pointer;
+}
+.certificate-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.group-group,
+.main-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.group-group {
+  align-items: flex-end;
+  gap: var(--gap-48xl);
+}
+.main-button {
+  align-items: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.frame-parent5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.cer-1-child {
+  width: 294px;
+  height: 120px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray);
+  display: none;
+}
+.data-analytics-with {
+  position: relative;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.download-certificate {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.group-certificates {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-5xs) var(--padding-3xs)
+    var(--padding-3xs);
+  background-color: #3e32ff;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.group-icon15 {
+  height: 14px;
+  width: 15px;
+  position: relative;
+  z-index: 1;
+}
+.group-certificates-parent {
+  width: 174px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.download-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.cer-1,
+.cer-icon {
+  display: flex;
+  justify-content: flex-start;
+}
+.cer-1 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-lgi) var(--padding-xl)
+    var(--padding-xl);
+  gap: 22px;
+}
+.cer-icon {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 413px 0;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-poppins);
+}
+.group-icon16 {
+  height: 17px;
+  width: 17px;
+  position: relative;
+  cursor: pointer;
+}
+.vector-icon11 {
+  height: 19px;
+  width: 15px;
+  position: relative;
+  min-height: 19px;
+}
+.certificates-icon3,
+.vector-icon12 {
+  height: 17px;
+  width: 19px;
+  position: relative;
+  cursor: pointer;
+}
+.vector-icon12 {
+  height: 18px;
+  width: 16px;
+}
+.certificate-screen,
+.component-22 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.component-22 {
+  width: 277px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-mini);
+}
+.certificate-screen {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(191.39deg, #666d73, #404040);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-13xl) var(--padding-6xl)
+    var(--padding-14xl);
+  gap: var(--gap-11xl);
+}
